@@ -428,6 +428,15 @@ function isInMarkers(userName){
 
 
 
+<!--device-->
+function onDeviceReady() {
+  navigator.geolocation.getCurrentPosition(onSuccess, onError);
+}
+
+document.addEventListener("deviceready", onDeviceReady, false);
+
+
+
 
 
 <!--favorite icons-->
