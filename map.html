@@ -329,6 +329,7 @@ function initialize() {
 
 var refresh = 
 	refreshMap();
+	google.maps.event.trigger(map, "resize");
 	
 	// Automatically centre the map fitting all markers on the screen
     map.fitBounds(bounds);
