@@ -6,6 +6,7 @@
 <link href="css/menu_style.css" type="text/css" rel="stylesheet">
 <preference name='phonegap-version' value='cli-5.2.0' />
 
+
 <meta charset="utf-8">
 <title>google map</title>
 
@@ -297,16 +298,7 @@ $(function(){
 <script>
 
 
-var map, mapOptions, currentLocation, currentLocationMarker;
-function loadMapScript() {
-  var script = document.createElement("script");
-  script.type = "text/javascript";
-  script.id = "googleMaps"
-  script.src = "https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap";
-  document.body.appendChild(script);
 
-
-}
 
 	var map = null;
 	var markers = [];
