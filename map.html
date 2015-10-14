@@ -329,7 +329,6 @@ function initialize() {
 
 var refresh = 
 	refreshMap();
-	google.maps.event.trigger(map, "resize");
 	
 	// Automatically centre the map fitting all markers on the screen
     map.fitBounds(bounds);
@@ -472,7 +471,7 @@ $('.fav_btn').each(function(index, element) {
     <ul>
       <a class="icons" href="#"><li><img src="images/share_btn.png"></li></a>
       <a class="icons" href="new_sale.html"><li><img src="images/add.png"></li></a>
-      <a id="home" href="index.html"><li><img id="logo_btn" src="images/home_btn.png"></li></a>
+      <a id="home" href="home.html"><li><img id="logo_btn" src="images/home_btn.png"></li></a>
       <a class="icons" href="chat_history.html"><li><img src="images/msg.png"></li></a>
       <a class="icons" href="my_trip.html"><li><img src="images/profile.png"></li></a>
 
