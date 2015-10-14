@@ -48,6 +48,17 @@
  
 }
 
+
+@font-face {
+  font-family: 'Cabin Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cabin Condensed Bold'), local('CabinCondensed-Bold'), url(http://fonts.gstatic.com/s/cabincondensed/v7/Ez4zJbsGr2BgXcNUWBVgEBZQ88-B6efqEZdRzbHKsrc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+
 .loading-2 {
   top: 300px;
   width: 473px;
@@ -121,6 +132,23 @@
 	left:30px;
 }
 
+#test{
+
+   -webkit-animation-name: spin;
+    -webkit-animation-duration: 2.7s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes spin {
+  0% {-webkit-transform: rotateX(0deg)
+rotateY(0deg) rotateZ(0deg);
+  }
+
+  100% {-webkit-transform: rotateX(0deg) rotateY(360deg) rotateZ(0deg);
+  }
+}
+
 
 
     </style>
@@ -137,8 +165,8 @@
     
     <div id="wrapper">
     
-    
-   
+    <!--
+   <img id="test" src="images/add.png">-->
 
 <div class="loading wave">
   Loading
@@ -149,7 +177,7 @@
     
     <script type="text/JavaScript">
 <!--
-setTimeout("location.href='login.html';",5000);
+setTimeout("location.href='login.html';",7000);
 -->
 </script>
     
