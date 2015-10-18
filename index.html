@@ -20,7 +20,10 @@
         <style>
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
 	  
-	  
+ body {
+        font-family: "customfont";
+     
+    }	  
 	  
 #wrapper{
 	width:1080px;
@@ -53,21 +56,10 @@
   font-family: 'Cabin Condensed';
   font-style: normal;
   font-weight: 700;
-  src: local('Cabin Condensed Bold'), local('CabinCondensed-Bold'), url(https://www.google.com/fonts/specimen/Cabin+Condensed.woff2) format('woff2'),
-  local('Cabin Condensed Bold'), local('CabinCondensed-Bold'), url(https://www.google.com/fonts/specimen/Cabin+Condensed.eot) format('eot');;
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
-
-
-.loading-2 {
-  top: 300px;
-  width: 473px;
-  height: 97px;
-  font-size: 0;
-  background: rgba(255, 255, 255, 0.06);
-
-}
+  src:url(fonts/CabinCondensed-Bold.ttf),
+      url(fonts/CabinCondensed-Medium.ttf),
+	  url(fonts/CabinCondensed-Regular.ttf),
+	  url(fonts/CabinCondensed-SemiBold.ttf);
 
 .ff {
   position: absolute;
