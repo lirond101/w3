@@ -160,11 +160,13 @@ margin-left:50px;
 
 <link href="js/slick/slick.css" rel="stylesheet" type="text/css">
  
-<script src="js/jquery-2.1.1.min.js"></script>
- <script src="/path/to/jquery.browser.js"></script>
-  <script src="jquery-browser-plugin-master/dist/jquery.browser.js"></script>
-  <script src="cordova-plugin-crosswalk-webview-master/hooks/update_config.js"></script>
-   <script src="cordova-plugin-googlemaps-master/www/googlemaps-cdv-plugin.js"></script>
+<script src="js/jquery-2.1.1.min.js" type="application/javascript" ></script>
+ <script src="/path/to/jquery.browser.js" type="application/javascript"></script>
+  <script src="jquery-browser-plugin-master/dist/jquery.browser.js" type="application/javascript"></script>
+  <script src="cordova-plugin-crosswalk-webview-master/hooks/update_config.js" type="application/javascript"></script>
+  <script src="jquery-browser-plugin-master/test/casperserver.js" type="application/javascript"></script>
+
+  
   
   
   
@@ -253,7 +255,7 @@ margin-left:50px;
 
 <!--slider-->
 <script src="js/slick/slick.js"></script>
-<script>
+<script type="application/javascript">
 var is_open = 0;
 $(function(){
 	$('#slider-slick').slick({
@@ -483,7 +485,7 @@ function initMap() {
 
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&sensor=false"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&sensor=false" type="application/javascript"></script>
 
 
         <div id="menu_wrapper">
